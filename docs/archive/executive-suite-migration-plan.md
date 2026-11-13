@@ -2,7 +2,7 @@
 
 ## Overview
 
-Transform the AI Collaboration Platform from a university prototype into a
+Transform the AI Collaboration Platform from an early prototype into a
 professional **Executive Suite** — a polished decision-support tool with a
 modern, button-driven GUI, rebranded architecture, and granular context
 control. This plan covers three pillars: **Rebrand**, **GUI Overhaul**, and
@@ -24,9 +24,9 @@ convey authority and professionalism.
 | `Orchestrator.java` | Rename file to `Maestro.java`, rename class to `Maestro` |
 | `Main.java` | All references: `Orchestrator` → `Maestro` |
 | `MainGui.java` | Field type and construction: `Orchestrator` → `Maestro` |
-| `NotesForClaude/PHILOSOPHY.md` | All mentions of "Orchestrator" → "Maestro" |
-| `NotesForClaude/ROADMAP.md` | All mentions of "Orchestrator" → "Maestro" |
-| `NotesForClaude/HANDOFF.md` | All mentions of "Orchestrator" → "Maestro" |
+| `docs/archive/PHILOSOPHY.md` | All mentions of "Orchestrator" → "Maestro" |
+| `docs/archive/ROADMAP.md` | All mentions of "Orchestrator" → "Maestro" |
+| `docs/archive/HANDOFF.md` | All mentions of "Orchestrator" → "Maestro" |
 
 **Steps:**
 1. Create `Maestro.java` as a copy of `Orchestrator.java`
@@ -46,8 +46,8 @@ Replace all references to "onion model" with **Context Layering Architecture**
 | File | What Changes |
 |---|---|
 | `PromptBuilder.java` | All comments referencing "onion" → "Context Layering Architecture" |
-| `NotesForClaude/PHILOSOPHY.md` | Section heading and body: "The Onion Model" → "Context Layering Architecture" |
-| `NotesForClaude/ROADMAP.md` | Any "onion" references |
+| `docs/archive/PHILOSOPHY.md` | Section heading and body: "The Onion Model" → "Context Layering Architecture" |
+| `docs/archive/ROADMAP.md` | Any "onion" references |
 
 **Terminology mapping:**
 - "Onion layers" → "Context layers"
@@ -421,9 +421,9 @@ Control dialog.
 | `MainGui.java` | New layout with button panel, context menu, Maestro reference |
 | `Main.java` | `Orchestrator` → `Maestro` |
 | `PromptBuilder.java` | Integrate `ContextController`, rename onion references |
-| `NotesForClaude/PHILOSOPHY.md` | Rebrand terminology |
-| `NotesForClaude/ROADMAP.md` | Rebrand terminology |
-| `NotesForClaude/HANDOFF.md` | Rebrand terminology |
+| `docs/archive/PHILOSOPHY.md` | Rebrand terminology |
+| `docs/archive/ROADMAP.md` | Rebrand terminology |
+| `docs/archive/HANDOFF.md` | Rebrand terminology |
 
 ### Deleted Files
 | File | Reason |

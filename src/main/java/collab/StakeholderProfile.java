@@ -14,11 +14,10 @@ package collab;
 // of the context layers — telling each AI model who they're advising.
 //
 // WHY THIS MATTERS:
-// Grant asking "how should we structure the GUI?" gets different
-// advice than Xavier asking the same question — because Grant is
-// leading the project and needs architectural guidance, while
-// Xavier might need more hands-on implementation guidance
-// depending on his comfort level with the codebase.
+// A project lead asking "how should we structure the GUI?" gets
+// different advice than a new contributor asking the same question —
+// the lead needs architectural guidance, while the newcomer may need
+// more hands-on implementation guidance.
 // ============================================================
 
 import java.util.List;

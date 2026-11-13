@@ -31,7 +31,7 @@
     <packaging>jar</packaging>
 
     <name>AI Collaboration Platform</name>
-    <description>Multi-model AI debate platform for university team collaboration</description>
+    <description>Desktop app where Claude, GPT, and Gemini debate the same prompt and react to each other</description>
 
     <properties>
         <!-- Java 21 — we use features like text blocks (triple-quote strings) -->

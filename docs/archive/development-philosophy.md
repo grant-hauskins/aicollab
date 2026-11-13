@@ -70,7 +70,7 @@ This interface is three lines of code but it's the design backbone. It means:
   the same interface. No changes to Maestro.
 - Testing without API calls = create a MockClient that returns canned responses.
   No money spent, no network needed.
-- Your professor sees polymorphism used for a real purpose, not a textbook
+- Polymorphism is used for a real purpose, not as a textbook
   exercise.
 
 ## Context Layering Architecture (How We Give AI Context)
@@ -78,7 +78,7 @@ This interface is three lines of code but it's the design backbone. It means:
 Every API call carries multiple layers of context, from foundation to surface:
 
 1. **Team context** — shared by all agents: "You are one of three AI
-   collaborators helping a student team build their final project."
+   collaborators helping a team build their product."
 2. **Agent identity** — unique per model: Claude focuses on architecture and
    quality, GPT on ideas and possibilities, Gemini on execution and delivery.
    Equal partners, no hierarchy.
@@ -100,5 +100,4 @@ mechanism, powerful effect.
   shaky foundation wastes more time than pausing to stabilize.
 - **No code without comments.** If you write a method, you explain it. This is
   non-negotiable. The comments are as important as the code — they're how your
-  teammates learn, how you remember what you did in three weeks, and how your
-  professor evaluates your understanding.
+  teammates learn and how you remember what you did in three weeks.
